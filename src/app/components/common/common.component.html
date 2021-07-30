@@ -1,0 +1,20 @@
+<div class="food-card">
+    <mdb-card *ngFor="let food of commonList">
+        <!--Card image-->
+        <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap">
+        </mdb-card-img>
+        <!--Card content-->
+        <mdb-card-body>
+            <div>
+                <mdb-card-title>
+                    <h4>{{food.name}}</h4>
+                </mdb-card-title>
+            </div>
+            <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the card's
+                content.
+            </mdb-card-text>
+    
+            <a href="#" mdbBtn color="primary" mdbWavesEffect>Button</a>
+        </mdb-card-body>
+    </mdb-card>
+</div>
